@@ -1,4 +1,4 @@
-#### 1. The definition of “hate speech”.
+#### 1. The definition of “hate speech” and problems and difficulties of the task.
 
 Hate speech is difficult to define, and even after agreeing on some sort of definition, is still proving to be complicated to attribute something (a tweet or a message) to the hate speech.
 
@@ -17,3 +17,15 @@ Another problem is connected with the sarcasm or quotes of the opponent argument
 In this work we hoped that because such specific area of the problem is picked (sexism detection) and because the annotator is familiar with the problem on more personal level, it will be easier to distinguish between the categories. Nevertheless, several problem arose. 
 It is also worth noting, that while we were in the process of research, and first thought about just picking “hate speech” as the topic, we made a list of many publicly available or semi publicly available corpora. They are mainly in English, and there could be different annotation approaches, but it could be found helpful later for some further hate-speech research. You can find [the whole list here](https://github.com/clips/gsoc2019_crosslang/blob/master/theoretical_support/list%20of%20hate-speech%20corpora.ods).
 
+#### References:
+*All references are provided with links to the articles*
+
+Thomas Davidson, Dana Warmsley, Michael Macy, and Ingmar Weber. 2017. [Automated Hate Speech Detection and the Problem of Offensive Language.](https://arxiv.org/pdf/1703.04009.pdf) 11th International Conference on Web and Social Media (ICWSM), pages 512–515, Montreal, Quebec, Canada 
+
+C. Nobata, J. Tetreault, A. Thomas, Y. Mehdad, and Y. Chang. 2016. [Abusive language detection in on-line user content.](http://www.yichang-cs.com/yahoo/WWW16_Abusivedetection.pdf) In 25th International World WideWeb Conference, WWW 2016, pages 145–153 
+
+Bjorn Ross, Michael Rist, Guillermo Carbonell, Benjamin Cabrera, Nils Kurowsky, and Michael Wojatzki. 2016. [Measuring the reliability of hate speech annotations: The case of the European refugee crisis.](https://arxiv.org/pdf/1701.08118.pdf) Bochum, Germany, September. 
+
+Zeerak Waseem. 2016. [Are you a racist or am I seeing things? Annotator influence on hate speech detection on Twitter.](https://www.aclweb.org/anthology/W16-5618) 1st Workshop on Natural Language Processing and Computational Social Science, pages 138–142. 
+
+Zeerak Waseem and Dirk Hovy. 2016. [Hateful symbols or hateful people? predictive features for hate speech detection on twitter.](https://www.aclweb.org/anthology/W16-5618) NAACL Student Research Workshop, San Diego, California, June. Association for Computational Linguistics. 
