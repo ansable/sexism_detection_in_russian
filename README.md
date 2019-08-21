@@ -2,7 +2,7 @@
 
 *This is the blog entry, aimed to describe progress on the project conducted within the GSOC 2019.*
 
-**The repository of the project itself can be found [here](https://github.com/clips/gsoc2019_crosslang) and the description of the content of the repository can be found further down, [here]()**
+**The repository of the project itself can be found [here](https://github.com/clips/gsoc2019_crosslang) and the description of the content of the repository can be found further down**
 
 **N.B.**: we decided to avoid the 4-page-long arxiv publication template, for the sake of completion and full documentation of the process. The references are given in the end of each of the subtopics. 
 
