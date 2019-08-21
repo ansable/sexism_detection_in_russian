@@ -16,7 +16,7 @@ In the course of work on the issue of "hate speech", two compilations have been 
 [1.1. The definition of “hate speech” and difficulties of the task.](hate_speech_theory.md)
 *(How to define the "hate speech"; what are the common problems with the annotation of hate speech)*
 
-#### 1.2. The process of collecting corpora.
+[1.2. The process of collecting corpora.](sources.md)
 *(Sources of our data, comments to our code to collect the data, description of resulted corpora)*
 
 #### 1.3. The problems with the annotation of our corpora.
