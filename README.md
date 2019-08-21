@@ -6,6 +6,8 @@
 
 **N.B.**: we decided to avoid the 4-page-long arxiv publication template, for the sake of completion and full documentation of the process. The references are given in the end of each of the subtopics. 
 
+**Link to useful compilation to conduct your own sexism detection research.**
+
 
 ### Part one. Creating sexist corpus and the process of its annotation.
 
