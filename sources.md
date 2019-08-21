@@ -2,7 +2,7 @@
 
 ##### 1.2.1 Media sources
 
-The first source was the Russian social network Vkontakte (avaliable at https://vk.com/ ). It is perfectly equipped for the needs of developers, right inside it is provided with an API with detailed documentation.
+The first source was the Russian social network Vkontakte (avaliable at <https://vk.com/> ). It is perfectly equipped for the needs of developers, right inside it is provided with an API with detailed documentation.
 
 We chose three different popular groups in vk, representing three different Russian media. They all have more than 500,000 subscribers, and ideologically they represent different directions.
 The media we have chosen are: 
