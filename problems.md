@@ -5,11 +5,11 @@
 One of the main problems was in the distinguishing between sarcasm and seriously meant sexist speech.
 **Example:** 
 
-> “[id305083075\|Aren], такую хрень несешь. Еще скажи, что мужик полигамен и должен осеменить больше самок, потому что так заложено природой.» 
+> “Aren, такую хрень несешь. Еще скажи, что мужик полигамен и должен осеменить больше самок, потому что так заложено природой.» 
 
 **Translation:** 
 
-> "[id305083075\|Aren], you’re saying some bullshit. What next, are you going to say that all men are polygamous and should inseminate more females, because it is in the nature?” 
+> "Aren, you’re saying some bullshit. What next, are you going to say that all men are polygamous and should inseminate more females, because it is in the nature?” 
 
 The comment is not sexist by itself, but it contains sexist vocabulary. Here the problem could be solved with the words co-occurrence: the word “bullshit” could work as a signal not to take the message literally.  
 
