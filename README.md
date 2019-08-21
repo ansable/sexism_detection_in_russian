@@ -6,7 +6,9 @@
 
 **N.B.**: we decided to avoid the 4-page-long arxiv publication template, for the sake of completion and full documentation of the process. The references are given in the end of each of the subtopics. 
 
-[Link to useful compilations]() collected by me to conduct a hate speech detection research.
+
+In the course of work on the issue of "hate speech", two compilations have been made, both of which may be useful for further research in this area. [The first one](https://docs.google.com/spreadsheets/d/1OwvguGcsUd_s_6EsfY76eMIp4CzeIC3dXLFQDJrb63c/edit#gid=0) is an attempt to systematize research on hate speech. This file will be updated.
+[The second one](https://github.com/clips/gsoc2019_crosslang/tree/master/theoretical_support) is a compilation of known open source corpora on hate speech. The list includes more than ten of them. This file is not planned to be updated. 
 
 
 ### Part one. Creating sexist corpus and the process of its annotation.
