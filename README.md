@@ -6,12 +6,12 @@
 
 **N.B.**: we decided to avoid the 4-page-long arxiv publication template, for the sake of completion and full documentation of the process. The references are given in the end of each of the subtopics. 
 
-**Link to useful compilation to conduct your own sexism detection research.**
+[Link to useful compilations]() collected by me to conduct a hate speech detection research.
 
 
 ### Part one. Creating sexist corpus and the process of its annotation.
 
-[#### 1.1. The definition of “hate speech” and difficulties of the task.](hate_speech_theory.md)
+[1.1. The definition of “hate speech” and difficulties of the task.](hate_speech_theory.md)
 *(How to define the "hate speech"; what are the common problems with the annotation of hate speech)*
 
 #### 1.2. The process of collecting corpora.
