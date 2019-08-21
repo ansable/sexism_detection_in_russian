@@ -1,19 +1,26 @@
 #### 1.3. The process of collecting corpora.
 
-##### 1.3.1. Sarcasm
+##### 1.3.1. Sarcasm.
 
 One of the main problems was in the distinguishing between sarcasm and seriously meant sexist speech.
 **Example:** 
+
 > “[id305083075|Aren], такую хрень несешь. Еще скажи, что мужик полигамен и должен осеменить больше самок, потому что так заложено природой.» 
+
 **Translation:** 
+
 > "[id305083075|Aren], you’re saying some bullshit. What next, are you going to say that all men are polygamous and should inseminate more females, because it is in the nature?” 
 
 The comment is not sexist by itself, but it contains sexist vocabulary. Here the problem could be solved with the words co-occurrence: the word “bullshit” could work as a signal not to take the message literally.  
 
 But another example proves to be even more complicated. This message is a reaction to the news that fewer female football fans will be showed on TV during the matches to avoid objectivization:
+
 > “Извините, но это какой пиздц. Может вообще женщинам запретим матчи посещать? Ну чтоб прям наверняка? Можно и в паранджу всех закутать. Это вообще 100% вариант.”
-Translation: 
+
+**Translation:** 
+
 > "I'm sorry, but that's fucked up. Maybe we should ban women from attending matches at all then? Just to be sure? You can also dress them all in burqas. That should work 100%.”
+
 
 ##### 1.3.2. Special slang.
 
