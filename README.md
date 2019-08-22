@@ -23,7 +23,7 @@ In the course of work on the issue of "hate speech", two compilations have been 
 
 *(Linguistical problems, general limitations)*
 
-#### 1.4. The guidelines.
+[1.4. The guidelines.](guidelines.md)
 
 ### Part two. Creating a sexism detector.
 
