@@ -20,17 +20,11 @@ The difference between the different types of preprocessing was not significant.
 Obviously all the results below are not particulary stable and set in stone: the accuracy in this case seemed more like an interval. I dealt with it with possibly slight profanity: just got results five times, each time and found the mean, in attempt to catch the logic behind change.
  
  type | tf-idf + NB | tf-idf + Logistic Regression 
-  
 ------------ | ----------|------------ 
-
 no preprocessing | 63% | 62%
-
 minus quotes and references | 64% | 64%
-
 minus punctuation | 61 % | 64%
-
 minus all above | 62% | 62%
-
 lemmatization + all above | 66% | 63%
 
 In the last few days, while I was in a hurry to finish this report, I had a late but interesting idea. I realized that I could still make my corpus less imbalanced, which could change the results somehow.
@@ -38,16 +32,10 @@ To do this, I excluded completely non-sexist corpus (ns_1.csv) from my final tes
 The result was instantaneous and significantly improved. Unfortunately, the idea came to me too late, so I couldn't test it as thoroughly as I wanted, but the results can still be found in the table below. 
 
  type |  tf-idf + Logistic Regression 
- 
 ------------ | ----------
-
 no preprocessing |  62%
-
 minus quotes and references |  64%
-
 minus punctuation | 61 % 
-
 minus all above | 62% 
-
 lemmatization + all above | 66% 
 
