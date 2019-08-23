@@ -19,7 +19,7 @@ Just in case, we compared the results at different stages of text's preprocessin
 The difference between the different types of preprocessing was not significant. The only interesting thing was, that  it seems that the result is surprisingly worse when both punctuation and stop words disappear from the text. This probably deserves a separate analysis in the future.
 Obviously all the results below are not particulary stable and set in stone: the accuracy in this case seemed more like an interval. I dealt with it with possibly slight profanity: just got results five times, each time and found the mean, in attempt to catch the logic behind change.
  
-  | tf-idf + NB | tf-idf + Logistic Regression 
+ type | tf-idf + NB | tf-idf + Logistic Regression 
   
 ------------ | ----------|------------ 
 
@@ -37,7 +37,7 @@ In the last few days, while I was in a hurry to finish this report, I had a late
 To do this, I excluded completely non-sexist corpus (ns_1.csv) from my final test/train. My  corpus continued to be imbalanced: I still had to use a balanced accuracy score as a metric, but now the data was more like 2,000 to 8,000, not 2,000 to 20,000.
 The result was instantaneous and significantly improved. Unfortunately, the idea came to me too late, so I couldn't test it as thoroughly as I wanted, but the results can still be found in the table below. 
 
- |  tf-idf + Logistic Regression 
+ type |  tf-idf + Logistic Regression 
  
 ------------ | ----------
 
