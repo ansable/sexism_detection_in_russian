@@ -29,7 +29,7 @@ In the course of work on the issue of "hate speech", two compilations have been 
 ### Part two. Creating a sexism detector.
 
 [2.1 Preprocessing of the corpora. Attempted models and results.](results.md)
-*(tf-idf + NB, tf-idf + Logistic Regression, pretrained word2vec + Logistic Regression, pretrained word2vec + SVM, pretrained ELMO)*
+*(tf-idf + NB, tf-idf + Logistic Regression, finetuned ELMO, finetuned + pretrained ELMO)*
 
 #### 2.3. Proposed possible improvements or future directions.
 
