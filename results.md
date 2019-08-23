@@ -1,12 +1,53 @@
 ##### 2.1. Preprocessing
 
-The preprocessing.py file was responsible for preprocessing the text. At first I planned to divide the date into test and train by myself and wrote a separate function for this purpose. Later on, it didn't seem to be the best way to do it, that's why in the end I still used the function from sklearn to separate the date.
+The **preprocessing.py** file was responsible for the preprocessing of the text. 
+At first I planned to divide the date into test and train by myself and wrote a separate function for this purpose. Later on, it started to seem as not the be the best way to deal with it, that's why in the end I still used the function from the library sklearn to separate the date.
 
-But this kind of distribution of information proved to be useful when preparing for saving processed cases.  As a result, functions were written to clear the text of punctuation, extract quotes and references using regular expressions (for example), extract stop words, perform lemmatization and stammatization. (However, it seems to me that lemmatization and stammatization are not very useful in this case).
-All the resulting texts were saved in the folder "Temporary" to facilitate the process of preprocessing for those who wish to use this corpus for their research. 
+But nevertheless this kind of handling the distribution of comments proved to be useful when preparing for saving processed corpora (it helped to process the data in small portions). 
+
+In the end number of functions were written to preprocess the text, mostly they were using Russian support of nltk.
+They were functions to strip the punctuation, extract quotes and references using regular expressions, extract stopwords, and perform lemmatization and stemming. (However, it seems to me that the later ones are not very useful in the case of Russian hate speech detection).
+All the resulting texts were saved in the folder "TemporalCorpora" to facilitate the process of preprocessing for those who wish to use this corpus for their research. 
  
+ ##### 2.2. Attempted models and their results.
  
- | tf-idf + NB | tf-idf + Logistic Regression | pretrained word2vec + Logistic Regression | pretrained word2vec + SVM | pretrained ELMO | trained ELMO
------------- | ----------|------------ | ----------|------------ | ----------|------------ 
-| Content from cell 2
-Content in the first column | Content in the second column
+I ambitiously planned three different ways of embedding, and several models of different complexity.
+I started with a simple tf-idf as an embedding and combined it with a naive bayes classifier. 
+Since our corpus is very imbalanced, instead of calculating f1-score, I used a balanced accuracy score as a metric, which is recommended in such cases.
+Just in case, we compared the results at different stages of text's preprocessing and then compared the use of logistical regression instead of naive bayes classifier. The results can be found in the table below.
+
+The difference between the different types of preprocessing was not significant. The only interesting thing was, that  it seems that the result is surprisingly worse when both punctuation and stop words disappear from the text. This probably deserves a separate analysis in the future.
+Obviously all the results below are not particulary stable and set in stone: the accuracy in this case seemed more like an interval. I dealt with it with possibly slight profanity: just got results five times, each time and found the mean, in attempt to catch the logic behind change.
+ 
+  | tf-idf + NB | tf-idf + Logistic Regression 
+  
+------------ | ----------|------------ 
+
+no preprocessing | 63% | 62%
+
+minus quotes and references | 64% | 64%
+
+minus punctuation | 61 % | 64%
+
+minus all above | 62% | 62%
+
+lemmatization + all above | 66% | 63%
+
+In the last few days, while I was in a hurry to finish this report, I had a late but interesting idea. I realized that I could still make my corpus less imbalanced, which could change the results somehow.
+To do this, I excluded completely non-sexist corpus (ns_1.csv) from my final test/train. My  corpus continued to be imbalanced: I still had to use a balanced accuracy score as a metric, but now the data was more like 2,000 to 8,000, not 2,000 to 20,000.
+The result was instantaneous and significantly improved. Unfortunately, the idea came to me too late, so I couldn't test it as thoroughly as I wanted, but the results can still be found in the table below. 
+
+ |  tf-idf + Logistic Regression 
+ 
+------------ | ----------
+
+no preprocessing |  62%
+
+minus quotes and references |  64%
+
+minus punctuation | 61 % 
+
+minus all above | 62% 
+
+lemmatization + all above | 66% 
+
