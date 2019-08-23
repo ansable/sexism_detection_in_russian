@@ -8,6 +8,7 @@
 
 
 In the course of work on the issue of "hate speech", two compilations have been made, both of which may be useful for further research in this area. [The first one](https://docs.google.com/spreadsheets/d/1OwvguGcsUd_s_6EsfY76eMIp4CzeIC3dXLFQDJrb63c/edit#gid=0) is an attempt to systematize research on hate speech. This file will be updated.
+
 [The second one](https://github.com/clips/gsoc2019_crosslang/tree/master/theoretical_support) is a compilation of known open source corpora on hate speech. The list includes more than ten of them. This file is not planned to be updated. 
 
 
@@ -27,10 +28,7 @@ In the course of work on the issue of "hate speech", two compilations have been 
 
 ### Part two. Creating a sexism detector.
 
-#### 2.3. Preprocessing of the corpora.
-
-#### 2.2. Attempted models and results.
-
+[2.1 Preprocessing of the corpora. Attempted models and results.](results.md)
 *(tf-idf + NB, tf-idf + Logistic Regression, pretrained word2vec + Logistic Regression, pretrained word2vec + SVM, pretrained ELMO)*
 
 #### 2.3. Proposed possible improvements or future directions.
