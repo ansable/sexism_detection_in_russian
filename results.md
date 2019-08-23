@@ -46,7 +46,8 @@ lemmatization + all above | 74%
 More advanced type of embeddings, which I have attempted, are ELMO. Our architecture was quite simple: we used ELMO embeddings - first, we used pretrained embedding in Russian, then trained it on our own (our resulted options and weight file can be found here in the repository), then plugged the results into LSTM, then to the simple feedforward neural network of one layer.
 
 Because the training of ELMO took something which seemed like a million hours, I couldn't play around much with data and also only tried it exclusively on my very imbalanced corpus.
-Nevertheless the results were pretty nice
+Nevertheless the results were relatively good.
+
 type | (finetuned by me) ELMO | (pretrained **and** finetuned by me) ELMO 
 ------------ | ---------- | -----------
 no preprocessing |  67% | 74%
