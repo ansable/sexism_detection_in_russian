@@ -9,7 +9,7 @@ In the end number of functions were written to preprocess the text, mostly they 
 They were functions to strip the punctuation, extract quotes and references using regular expressions, extract stopwords, and perform lemmatization and stemming. (However, it seems to me that the later ones are not very useful in the case of Russian hate speech detection).
 All the resulting texts were saved in the folder "TemporalCorpora" to facilitate the process of preprocessing for those who wish to use this corpus for their research. 
  
- ##### 2.2. Attempted models and their results.
+##### 2.2. Attempted models and their results.
  
 I ambitiously planned three different ways of embedding, and several models of different complexity.
 I started with a simple tf-idf as an embedding and combined it with a naive bayes classifier. 
