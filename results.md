@@ -35,7 +35,7 @@ To do this, I excluded completely non-sexist corpus (ns_1.csv) from my final tes
 
 The result was instantaneous and significantly improved. Unfortunately, the idea came to me too late, so I couldn't test it as thoroughly as I wanted, but the results can still be found in the table below. 
 
- type |  tf-idf + Logistic Regression 
+type |  tf-idf + Logistic Regression 
 ------------ | ----------
 no preprocessing |  73%
 minus quotes and references |  71%
@@ -47,8 +47,9 @@ More advanced type of embeddings, which I have attempted, are ELMO. Our architec
 
 Because the training of ELMO took something which seemed like a million hours, I couldn't play around much with data and also only tried it exclusively on my very imbalanced corpus.
 Nevertheless the results were pretty nice
- type | (finetuned by me) ELMO | (pretrained **and** finetuned by me) ELMO 
+type | (finetuned by me) ELMO | (pretrained **and** finetuned by me) ELMO 
 ------------ | ---------- | -----------
 no preprocessing |  67% | 74%
+
 Both numbers are given in the same balanced accuracy score.
 
