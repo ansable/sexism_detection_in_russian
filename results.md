@@ -23,11 +23,11 @@ Obviously all the results below are not particulary stable and set in stone: the
  
  type | tf-idf + NB | tf-idf + Logistic Regression 
 ------------ | ----------|------------ 
-no preprocessing | 63% | 62%
-minus quotes and references | 64% | 64%
-minus punctuation | 61 % | 64%
-minus all above | 62% | 62%
-lemmatization + all above | 66% | 63%
+no preprocessing | 63 | 62
+minus quotes and references | 64 | 64
+minus punctuation | 61  | 64
+minus all above | 62 | 62
+lemmatization + all above | 66 | 63
 
 In the last few days, while I was in a hurry to finish this report, I had a late but interesting idea. I realized that I could still make my corpus less imbalanced, which could change the results somehow.
 
@@ -37,11 +37,11 @@ The result was instantaneous and significantly improved. Unfortunately, the idea
 
 type |  tf-idf + Logistic Regression 
 ------------ | ----------
-no preprocessing |  73%
-minus quotes and references |  71%
-minus punctuation | 70% 
-minus all above | 69% 
-lemmatization + all above | 74% 
+no preprocessing |  73
+minus quotes and references |  71
+minus punctuation | 70 
+minus all above | 69 
+lemmatization + all above | 74 
 
 More advanced type of embeddings, which I have attempted, are ELMO. Our architecture was quite simple: we used ELMO embeddings - first, we used pretrained embedding in Russian, then trained it on our own (our resulted options and weight file can be found here in the repository), then plugged the results into LSTM, then to the simple feedforward neural network of one layer.
 
@@ -50,7 +50,7 @@ Nevertheless the results were relatively good.
 
 type | (finetuned by me) ELMO | (pretrained **and** finetuned by me) ELMO 
 ------------ | ---------- | -----------
-no preprocessing |  67% | 74%
+no preprocessing |  67 | 74
 
 Both numbers are given in the same balanced accuracy score.
 
